@@ -41,6 +41,33 @@
     background-color: #C2D5DB;
     border-radius: 25px;
 }
+
+.cabecalho{
+    display: flex;
+}
+
+.cabecalho img{
+    width: 7.5%;
+}
+
+.hero{
+    display: flex;
+    flex-direction: row;
+}
+
+.hero img{
+    width: 75%;
+}
+
+.lista-redirecionamento{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+
+    background-color: #C2D5DB;
+    border-radius: 25px;
+}
 .quem {
     padding-top: 200px;
     width: 100%;
@@ -79,6 +106,8 @@
 }
 .titulocoment {
     background-color: yellow;
+    width: 100%;
+    height: 80px;
     padding-left: 50px;
     font-size: 30px;
 }
