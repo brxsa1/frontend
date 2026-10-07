@@ -42,9 +42,8 @@ body{
 .b4 {
     width: 500px;
     height: 150px;
-
-    background-color: blue;
-
+    background-color: #C2D5DB;
+    border-radius: 25px;
 }
 
 .cabecalho{
@@ -114,8 +113,10 @@ body{
     margin: auto;
     display: flex;
 }
-.pagina2 {
+.titulocoment {
     background-color: yellow;
+    width: 100%;
+    height: 80px;
     padding-left: 50px;
     font-size: 30px;
 }
